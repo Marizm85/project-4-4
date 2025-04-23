@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/mnt/data/WhatsApp Image 2025-04-23 at 13.17.26_4236caa9.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: orange !important;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: orange;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: orange;
+}
+
+.card-img-top {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: orange;
+    border-color: orange;
