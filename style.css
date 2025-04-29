@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: white;
 }
 
 .navbar-nav .nav-link.active {
