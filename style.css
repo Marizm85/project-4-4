@@ -26,18 +26,17 @@ body {
   text-decoration: underline;
 }
 
-/* Hero Banner Image (adjusted) */
+/* Hero Banner Image */
 .hero-banner img {
   width: 100%;
   height: 250px;
-  object-fit: contain;
+  object-fit: cover; 
   display: block;
   margin: 0;
   padding: 0;
-  border: none;
 }
 
-/* Video Banner Styling (adjusted) */
+/* Video Banner Styling */
 .video-banner {
   margin: 0;
   padding: 0;
