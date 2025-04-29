@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Innovize Solutions Consulting LLC</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services - Innovize Solutions Consulting LLC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">Innovize Solutions</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/innovizelogo.png" alt="Innovize Logo" style="height: 40px; margin-right: 10px;">
+      Innovize Solutions
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <div class="container mt-5">
-        <h1>Our Services</h1>
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Roofing Services</h3>
-                <p>Our roofing services include roof measurements, condition assessments, and post-inspection consultations.</p>
-            </div>
-            <div class="col-md-6">
-                <h3>Consultation</h3>
-                <p>We provide expert advice on construction projects to improve efficiency and reduce costs.</p>
-            </div>
-        </div>
+  <div class="container mt-5">
+    <h1 class="text-center mb-5">Our Services</h1>
+
+    <!-- Roofing Section -->
+    <div class="row my-5">
+      <div class="col-md-6">
+        <img src="images/roofing-preview.jpg" alt="Roofing Services" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h3>Roofing Services</h3>
+        <p>Precision drone inspections and detailed reports to keep your projects on track and your team safe.</p>
+        <a href="roofing.html" class="btn btn-primary mt-3">Learn More</a>
+      </div>
     </div>
 
-    <footer class="bg-black text-white text-center py-4">
-        <p>Contact us at: <a href="mailto:innovize.solution@gmail.com" class="text-white">innovize.solution@gmail.com</a></p>
-        <p>DEVELOPER: Mariz Masoud, IS117-002, Spring 2025</p>
-    </footer>
+    <!-- Real Estate Section -->
+    <div class="row my-5">
+      <div class="col-md-6">
+        <img src="images/Realestate.jpg" alt="Real Estate Drone Services" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h3>Real Estate Support</h3>
+        <p>Highlight your property listings with aerial tours, virtual staging, and boundary mapping visuals.</p>
+        <a href="realestate.html" class="btn btn-primary mt-3">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Surveying Section -->
+    <div class="row my-5">
+      <div class="col-md-6">
+        <img src="images/survey.jpg" alt="Surveying and Mapping" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h3>Surveying Support</h3>
+        <p>Streamline your construction planning with detailed site surveys, 3D renderings, and progress tracking.</p>
+        <a href="surveying.html" class="btn btn-primary mt-3">Learn More</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="bg-black text-white text-center py-4 mt-5">
+    <p>Contact us at: <a href="mailto:innovize.solution@gmail.com" class="text-white">innovize.solution@gmail.com</a></p>
+    <p>DEVELOPER: Mariz Masoud, IS117-002, Spring 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
