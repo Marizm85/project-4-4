@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Innovize Solutions Consulting LLC</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Innovize Solutions Consulting LLC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">Innovize Solutions</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container mt-5">
-        <h1>Contact Us</h1>
-        <form action="#" method="POST">
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/innovizelogo.png" alt="Innovize Logo" style="height: 40px; margin-right: 10px;">
+      Innovize Solutions
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
     </div>
+  </nav>
 
-    <footer class="bg-black text-white text-center py-4">
-        <p>Contact us at: <a href="mailto:innovize.solution@gmail.com" class="text-white">innovize.solution@gmail.com</a></p>
-        <p>DEVELOPER: Mariz Masoud, IS117-002, Spring 2025</p>
-    </footer>
+  <div class="container mt-5">
+    <h1>Contact Us</h1>
+    <form action="#" method="POST" class="mb-5">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <hr class="my-5">
+
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2>Follow Us on Instagram</h2>
+        <p>Stay connected and see how Innovize Solutions is helping clients every day.</p>
+        <ul class="list-unstyled">
+          <li><strong>📧 Email:</strong> innovize.solution@gmail.com</li>
+          <li><strong>📞 Phone:</strong> 732-484-6316</li>
+          <li><strong>🔗 LinkedIn:</strong> 
+            <a href="https://linkedin.com/company/innovize-solutions-consulting" target="_blank">
+              linkedin.com/company/innovize-solutions-consulting
+            </a>
+          </li>
+          <li><strong>📸 Instagram:</strong> 
+            <a href="https://www.instagram.com/innovizesolutionsconsultingllc/" target="_blank">
+              @innovizesolutionsconsultingllc
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <img src="images/insta-imaged.jpg" alt="Instagram Profile" class="img-fluid rounded shadow">
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-black text-white text-center py-4 mt-5">
+    <p>Contact us at: <a href="mailto:innovize.solution@gmail.com" class="text-white">innovize.solution@gmail.com</a></p>
+    <p>DEVELOPER: Mariz Masoud, IS117-002, Spring 2025</p>
+  </footer>
 </body>
 </html>
