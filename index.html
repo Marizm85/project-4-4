@@ -6,6 +6,18 @@
   <title>Innovize Solutions Consulting LLC</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .video-banner video {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -25,19 +37,11 @@
     </div>
   </nav>
 
-  <!-- Replaced hero section with your background image -->
   <header class="hero-banner text-center">
     <img src="images/background.png" alt="Innovize Banner" class="img-fluid w-100">
   </header>
 
-  <div class="container my-5">
-    <video autoplay muted loop playsinline class="w-100 rounded shadow" style="max-height: 500px;">
-      <source src="videos/introvid.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-
-  <div class="container text-center my-4">
+  <div class="container text-center my-5">
     <h2>About Innovize Solutions Consulting LLC</h2>
     <p class="lead">
       Innovize Solutions Consulting LLC is a New Jersey-based engineering consulting firm specializing in drone-based imaging, 3D modeling, and construction monitoring.
@@ -47,29 +51,48 @@
     </p>
   </div>
 
+  <div class="video-banner">
+    <video autoplay muted loop playsinline>
+      <source src="videos/introvid.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="text-center my-4">
+    <p class="h5 fw-semibold">
+      Your trusted partner for roofing, construction, and real estate services in New Jersey.
+    </p>
+  </div>
+
   <div class="container mt-5">
     <h2 class="text-center">Our Services</h2>
     <div class="row">
       <div class="col-md-4 text-center">
-        <div class="service-card">
-          <img src="images/roofing.jpg" class="img-fluid" alt="Roofing Services">
-          <h3>Roofing Services</h3>
-          <p>Roof measurements, condition assessments, and post-inspection consultations.</p>
-        </div>
+        <a href="roofing.html" style="text-decoration: none; color: inherit;">
+          <div class="service-card">
+            <img src="images/roofing.jpg" class="img-fluid" alt="Roofing Services">
+            <h3>Roofing Services</h3>
+            <p>Roof measurements, condition assessments, and post-inspection consultations.</p>
+          </div>
+        </a>
       </div>
       <div class="col-md-4 text-center">
-        <div class="service-card">
-          <img src="images/realestate.jpg" class="img-fluid" alt="Consultation">
-          <h3>Consultation</h3>
-          <p>Expert advice on construction projects to improve efficiency and planning.</p>
-        </div>
+        <a href="contact.html" style="text-decoration: none; color: inherit;">
+          <div class="service-card">
+            <img src="images/realestate.jpg" class="img-fluid" alt="Consultation">
+            <h3>Consultation</h3>
+            <p>Expert advice on construction projects to improve efficiency and planning.</p>
+          </div>
+        </a>
       </div>
       <div class="col-md-4 text-center">
-        <div class="service-card">
-          <img src="images/survey.jpg" class="img-fluid" alt="Surveying Services">
-          <h3>Surveying Services</h3>
-          <p>Accurate land surveying, boundary mapping, and project visualizations.</p>
-        </div>
+        <a href="surveying.html" style="text-decoration: none; color: inherit;">
+          <div class="service-card">
+            <img src="images/survey.jpg" class="img-fluid" alt="Surveying Services">
+            <h3>Surveying Services</h3>
+            <p>Accurate land surveying, boundary mapping, and project visualizations.</p>
+          </div>
+        </a>
       </div>
     </div>
   </div>
