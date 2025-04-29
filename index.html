@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+\<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,11 +14,17 @@
 
     header.hero-banner {
       height: 220px;
-      background-image: url("images/background.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: white;
+      padding: 10px;
+    }
+
+    header.hero-banner img {
+      max-height: 100%;
+      max-width: 100%;
+      object-fit: contain;
     }
 
     .video-wrapper {
@@ -129,7 +135,9 @@
     </div>
   </nav>
 
-  <header class="hero-banner"></header>
+  <header class="hero-banner">
+    <img src="images/background.png" alt="Innovize Banner" />
+  </header>
 
   <div class="container text-center my-5">
     <h2>About Innovize Solutions Consulting LLC</h2>
