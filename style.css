@@ -3,9 +3,14 @@ body {
   color: white;
 }
 
-/* Banner handled as background-image in HTML, no img here */
+header.hero-banner {
+  height: 160px;
+  background-image: url("images/background.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-/* Video section */
 .video-wrapper {
   margin: 0 auto 40px auto;
   max-width: 720px;
@@ -28,7 +33,6 @@ body {
   display: block;
 }
 
-/* Our Services section title */
 .section-heading {
   background: linear-gradient(
     rgba(255, 255, 255, 1),
@@ -44,7 +48,6 @@ body {
   color: black;
 }
 
-/* Service cards */
 .service-card {
   background: #f8f9fa;
   border-radius: 10px;
@@ -84,12 +87,10 @@ body {
   justify-content: center;
 }
 
-/* White text on important sections */
 h2, p.lead, .fw-semibold {
   color: white !important;
 }
 
-/* Navbar links */
 a.nav-link {
   color: white !important;
 }
