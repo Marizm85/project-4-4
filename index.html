@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      background-color: rgba(255, 165, 0, 0.15); /* semi-transparent orange */
+background-color: rgba(128, 128, 128, 0.1);
     }
 
     header.hero-banner img {
@@ -18,26 +18,24 @@
     }
 
     .video-wrapper {
-      border: 10px solid transparent;
-      padding: 10px;
-      background-image:
-        linear-gradient(white, white),
-        repeating-linear-gradient(45deg,
-          #007bff, #007bff 10px,
-          #6c757d 10px, #6c757d 20px,
-          #ffc107 20px, #ffc107 30px,
-          #fd7e14 30px, #fd7e14 40px);
-      background-origin: padding-box, border-box;
-      background-clip: content-box, border-box;
       margin: 0 auto 40px auto;
       max-width: 720px;
-      border-radius: 10px;
+      padding: 12px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #0d6efd, #6c757d, #0dcaf0, #0d6efd);
     }
 
-    .video-wrapper video {
+    .video-frame-inner {
+      background-color: #ffffff;
+      border-radius: 6px;
+      overflow: hidden;
+      padding: 5px;
+    }
+
+    .video-frame-inner video {
       width: 100%;
       height: auto;
-      border-radius: 5px;
+      display: block;
     }
 
     .service-card {
@@ -105,10 +103,12 @@
   </div>
 
   <div class="video-wrapper">
-    <video autoplay muted loop playsinline>
-      <source src="videos/introvid.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
+    <div class="video-frame-inner">
+      <video autoplay muted loop playsinline>
+        <source src="videos/introvid.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </div>
 
   <div class="text-center my-4">
@@ -152,9 +152,10 @@
 
   <footer class="bg-black text-white text-center py-4 mt-5">
     <p>Contact us at: <a href="mailto:innovize.solution@gmail.com" class="text-white">innovize.solution@gmail.com</a></p>
-    <p>copyright: © Mariz Masoud, IS117-002, Spring 2025</p>
+    <p>DEVELOPER: Mariz Masoud, IS117-002, Spring 2025</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
