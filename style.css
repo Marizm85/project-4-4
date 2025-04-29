@@ -4,11 +4,12 @@ body {
 }
 
 header.hero-banner {
-  height: 160px;
+  height: 220px;
   background-image: url("images/background.png");
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
 }
 
 .video-wrapper {
