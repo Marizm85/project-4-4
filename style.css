@@ -9,7 +9,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #007bff; 
+  background-color: #007bff;
 }
 
 .navbar-brand img {
@@ -33,6 +33,13 @@ body {
   padding: 5rem 0;
 }
 
+/* Hero Banner Image (NEW) */
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Service Cards */
 .service-card {
   padding: 20px;
@@ -47,12 +54,16 @@ body {
   transform: scale(1.03);
 }
 
-/* Video Styling */
-video {
+/* Video Styling (Updated) */
+.video-banner video {
   width: 100%;
-  border-radius: 10px;
+  height: 300px;
   object-fit: cover;
-  max-height: 500px;
+  object-position: center;
+  display: block;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Images in Services */
