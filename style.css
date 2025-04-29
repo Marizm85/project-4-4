@@ -3,7 +3,7 @@ body {
   color: white;
 }
 
-/* Short banner */
+/* Banner image */
 header.hero-banner img {
   width: 100%;
   height: 120px;
@@ -13,31 +13,12 @@ header.hero-banner img {
   background-color: white;
 }
 
-/* Gradient border for video wrapper */
-.video-wrapper {
-  margin: 0 auto 40px auto;
-  max-width: 720px;
-  padding: 24px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, #0d6efd, #6c757d, #0dcaf0, #0d6efd);
+/* About & section text */
+h2, p.lead, .fw-semibold, .section-heading {
+  color: white !important;
 }
 
-/* Inner video frame styling */
-.video-frame-inner {
-  background-color: #ffffff;
-  border-radius: 8px;
-  overflow: hidden;
-  padding: 5px;
-}
-
-.video-frame-inner video {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  display: block;
-}
-
-/* Section highlight for "Our Services" */
+/* "Our Services" header style */
 .section-heading {
   background-color: rgba(255, 165, 0, 0.25); 
   padding: 20px;
@@ -48,7 +29,7 @@ header.hero-banner img {
   margin-bottom: 30px;
 }
 
-/* Service card container */
+/* Service card layout */
 .service-card {
   background: #f8f9fa;
   border-radius: 10px;
@@ -60,41 +41,32 @@ header.hero-banner img {
   color: black;
 }
 
-/* Title above image */
 .service-card h3 {
   background-color: #cfe2ff;
   padding: 12px 10px;
   font-weight: bold;
   text-align: center;
-  margin: 0;
-  font-size: 1.3rem;
+  margin: 0 0 10px 0; /* adds space below title */
 }
 
-/* Image styling */
 .service-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
+  margin-top: 5px; /* adds space above image */
 }
 
-/* Card body paragraph */
 .service-card p {
-  padding: 10px 15px 20px;
+  padding: 10px 15px 15px;
   margin: 0;
   text-align: center;
   flex-grow: 1;
-}
-
-/* Text fixes for dark sections */
-h2, p.lead, .fw-semibold, .section-heading {
-  color: white !important;
 }
 
 /* Navbar links */
 a.nav-link {
   color: white !important;
 }
-
 a.nav-link:hover {
   color: #ffc107 !important;
 }
