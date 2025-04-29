@@ -8,22 +8,23 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-  background-color: #2c3e50;
+      background-color: #2c3e50;
+      color: white;
     }
 
     header.hero-banner img {
-       width: 100%;
-      height: 120px;              
-      object-fit: contain;        
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
       display: block;
       margin: 0 auto;
-      background-color: white;    
+      background-color: white;
     }
 
     .video-wrapper {
       margin: 0 auto 40px auto;
       max-width: 720px;
-      padding: 20px; 
+      padding: 24px;
       border-radius: 16px;
       background: linear-gradient(135deg, #0d6efd, #6c757d, #0dcaf0, #0d6efd);
     }
@@ -37,9 +38,19 @@
 
     .video-frame-inner video {
       width: 100%;
-      height: 200px; 
+      height: 250px;
       object-fit: cover;
       display: block;
+    }
+
+    .section-heading {
+      background-color: rgba(255, 165, 0, 0.3); /* opaque orange border */
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 30px;
     }
 
     .service-card {
@@ -50,20 +61,23 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       display: flex;
       flex-direction: column;
+      color: black;
     }
 
     .service-card h3 {
       background-color: #cfe2ff;
-      padding: 10px;
+      padding: 12px 10px;
       font-weight: bold;
       text-align: center;
-      margin: 0;
+      margin-bottom: 0;
+      font-size: 1.3rem;
     }
 
     .service-card img {
       width: 100%;
       height: 200px;
       object-fit: cover;
+      margin-top: 0; /* moved image down */
     }
 
     .service-card p {
@@ -71,6 +85,14 @@
       flex-grow: 1;
       margin-bottom: 0;
       text-align: center;
+    }
+
+    a.nav-link {
+      color: white !important;
+    }
+
+    a.nav-link:hover {
+      color: #ffc107 !important;
     }
   </style>
 </head>
@@ -122,7 +144,7 @@
   </div>
 
   <div class="container mt-5">
-    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="section-heading">Our Services</div>
     <div class="row g-4">
       <div class="col-md-4">
         <a href="roofing.html" style="text-decoration: none; color: inherit;">
