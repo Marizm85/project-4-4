@@ -1,7 +1,7 @@
 /* General styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #e6f0f7; /* updated */
   color: #333;
   margin: 0;
   padding: 0;
@@ -26,18 +26,14 @@ body {
   text-decoration: underline;
 }
 
-/* Hero Section */
-.hero {
-  background-color: #007bff;
-  color: white;
-  padding: 5rem 0;
-}
-
-/* Hero Banner Image (NEW) */
+/* Hero Banner Image */
 .hero-banner img {
   width: 100%;
   height: auto;
   display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 /* Service Cards */
@@ -54,12 +50,12 @@ body {
   transform: scale(1.03);
 }
 
-/* Video Styling (Updated) */
+/* Video Banner Styling */
 .video-banner video {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
+  max-height: 100vh;
+  object-fit: contain;
   display: block;
   border: none;
   margin: 0;
